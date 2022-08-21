@@ -28,7 +28,7 @@ const List<String> currenciesList = [
 const List<String> cryptoList = ['BTC', 'ETH', 'LTC'];
 
 const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
-const apiKey = 'YOUR-API-KEY-HERE';
+const apiKey = '0F4E140E-E909-4896-9080-A258EE0CD317';
 
 class CoinData {
   Future getCoinData(String selectedCurrency) async {
